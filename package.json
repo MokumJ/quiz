@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.1.0",
+    "immutability-helper": "^2.6.6",
+    "lodash": "^4.17.5",
+    "popmotion-pose": "^1.0.24",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.3.0",
+    "react-pose": "^1.0.2",
     "react-scripts": "1.1.1"
   },
   "scripts": {
@@ -12,5 +20,25 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-config-oberon": "^1.1.0",
+    "eslint-config-react-app": "^1.0.5",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.68.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "oberon",
+      "react-app",
+      "standard"
+    ]
   }
 }
